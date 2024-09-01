@@ -22,4 +22,5 @@ div{
     text-transform:inherit;
     cursor: pointer;
 }
-footer{font-family: Georgia, 'Times New Roman', Times, serif;}
+footer{font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: smaller;}
