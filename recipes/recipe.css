@@ -1,0 +1,10 @@
+body{
+    background-color:gray;
+}
+li{font-family: Georgia, 'Times New Roman', Times, serif;
+    font: size 20px;
+    text-transform: capitalize;
+    line height: 20px;
+    
+    
+}
