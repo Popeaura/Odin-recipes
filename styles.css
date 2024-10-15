@@ -18,9 +18,7 @@ nav{
     text-align:right;
 }
 
-button{
-    background-color: #0C1844;
+ h1{
+    color: #fff;
     text-align: center;
-    color: #FFF5E1;
-    border-radius: 8px;
  }
