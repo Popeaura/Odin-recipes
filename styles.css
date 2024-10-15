@@ -4,49 +4,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
 body{
     background-color: rgb(204, 204, 218);
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.0 ;
 }
-
-nav ul li {
-    list-style-type: none;
-    padding: 0%;
-    margin:0;
-    text-align: right;
-}
-
 nav ul li{
-    display: inline;
-}
-
-nav ul li {
     text-decoration: none;
     padding: 10px 15px;
     display: inline-block;
-    color: rgb(49, 119, 119);
+    
 }   
+
 nav{
     background-color: #fdf7f7;
     text-align:right;
-}
-
-
-
-
-header,main, footer{
-    padding: 1rem;
-    text-align: center;
-}
-
-.flex-container{
-    display: flex;
-    justify-content:left;
-    align-items: center;    
-    height: 100%;
-    background-color: rgb(238, 167, 62);
-    border: 2px solid #333;
 }
