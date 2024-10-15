@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(204, 204, 218);
+    background-color: #FFF5E1;
     font-family: Arial, Helvetica, sans-serif;
 }
 nav ul li{
@@ -16,6 +16,6 @@ nav ul li{
 }   
 
 nav{
-    background-color: #fdf7f7;
+    background-color: #FFF5E1;
     text-align:right;
 }
