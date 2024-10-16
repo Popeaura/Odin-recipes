@@ -1,79 +1,100 @@
-/*Basic reset*/
-*{
-    padding: 0%;
-    margin: 0 ;
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 :root {
     --main-color: #dead5f;
-    --primary-color:#312e2e;
+    --primary-color: #312e2e;
+    --background-color: #0C1844;
 }
 
-body{
-    background-color: #0C1844;
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--background-color);
+    line-height: 1.6;
 }
-/* nav start */
-nav{
-   display: flex;
-   justify-content: space-between;
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #333;
 }
 
 .logo {
     color: #fff;
-    margin: auto 40px;
-    font-family: sans-serif;
     font-size: 24px;
 }
 
 .nav-items {
     display: flex;
+    list-style: none;
 }
 
-ul li {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 15px;
+.nav-items li {
+    margin: 0 15px;
 }
 
-ul li a {
+.nav-items a {
     color: #fff;
     text-decoration: none;
-    font-family: sans-serif;
-}
- 
-li a:hover{
-    border-bottom: 2px solid #dead5f;
+    font-size: 18px;
 }
 
-/* nav end */
+.nav-items a:hover {
+    border-bottom: 2px solid var(--main-color);
+}
 
-/* utility styles*/
-button{
-    padding: 10px 30px ;
-    background-color:#dead5f;
+/* Utility styles */
+button {
+    padding: 10px 30px;
+    background-color: var(--main-color);
     cursor: pointer;
     border-radius: 8px;
+    border: none;
+    color: var(--primary-color);
+    transition: background-color 0.3s ease;
 }
-.main-btn{
-    position: absolute;
-    bottom: 2rem;
-}
-/* header start */
-.header{
-    background: url(recipes/Assets/Digital.png);
-    background-position: center;
-    background-size:contain;
-    background-repeat: no-repeat;
-    height: 100vh;
-    font-family: serif;
-    font-weight: normal;
 
-    /*flex-box*/
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #dead5f;
+button:hover {
+    background-color: #f2aa4c;
+}
+
+/* Header styles */
+.container {
+    background-color: #FFF5E1;
     text-align: center;
+    padding: 50px;
+}
+
+.main-heading {
+    color: var(--main-color);
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.primary-heading {
+    color: var(--main-color);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container{
+        padding: 20px;
+    }
+
+    .main-heading {
+        font-size: 2rem;
+    }
 }
