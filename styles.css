@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-
 :root {
     --main-color: #dead5f;
     --primary-color:#312e2e;
@@ -58,4 +57,9 @@ button{
     background-color:#dead5f;
     cursor: pointer;
     border-radius: 8px;
+}
+.main-btn{
+    position: absolute;
+    bottom: 2rem;
+    transform: translateY(60px);
 }
