@@ -48,10 +48,8 @@ li a:hover{
 }
 
 /* nav end */
-h1{
-    text-align: center;
-    color: #dead5f;
-}
+
+/* utility styles*/
 button{
     padding: 10px 30px ;
     background-color:#dead5f;
@@ -61,4 +59,21 @@ button{
 .main-btn{
     position: absolute;
     bottom: 2rem;
+}
+/* header start */
+.header{
+    background: url(recipes/Assets/Digital.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: serif;
+    font-weight: normal;
+
+    /*flex-box*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #dead5f;
+    text-align: center;
 }
