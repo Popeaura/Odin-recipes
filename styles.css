@@ -12,22 +12,21 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: var(--background-color);
-    line-height: 1.6;
+  
 }
 
 /* Navigation styles */
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center; /* Add this to align logo and nav items */
     padding: 1rem;
     background-color: #333;
 }
 
-.logo {
-    color: #fff;
-    font-size: 24px;
+.logo img {
+    width: 50px; /* Adjust the logo size */
+    height: auto;
 }
 
 .nav-items {
@@ -90,7 +89,7 @@ button:hover {
         align-items: center;
     }
 
-    .container{
+    .container {
         padding: 20px;
     }
 
