@@ -9,9 +9,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #0C1844;
+}
 /* Nav start */
 nav{
+    height:100%;
     display: flex;
+    padding: 1rem;
     justify-content: space-between;
     background-color: rgb(63, 62, 62);
 }
@@ -56,25 +61,94 @@ nav{
 
 /* About */
 .about {
-    background-color: #f6f1e9; /* Light background color for the box */
-    border: 2px solid #4f200d; /* Darker border to define the box */
-    padding: 20px; /* Space inside the box */
-    border-radius: 10px; /* Rounded corners */
-    max-width: 800px; /* Set a maximum width */
-    margin: 20px auto; /* Center the box horizontally with margin */
+    background-color: #f6f1e9;
+    border: 2px solid #4f200d; 
+    padding: 20px; 
+    border-radius: 10px; 
+    max-width: 80%; 
+    margin: 20px auto; 
   }
   
   .about h1 {
-    text-align: center; /* Center the heading text */
+    text-align: center; 
     margin-bottom: 20px;
   }
   
   .about p {
-    text-align: justify; /* Justify the text */
-    line-height: 1.6; /* Increase the line height for readability */
+    text-align: justify; 
+    line-height: 1.6; 
   }
 
   /*About end */
+   .ingredients{
+    background-color: #f6f1e9;
+    border: 2px solid #4f200d;
+    max-width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 20px;
+   }
   
-  
-  
+   /* ingredients start */
+   .ingredients h1{
+    text-align: center;
+    margin-bottom: 20px;
+   }
+
+   .ingredients  ul li{
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    text-align: justify;
+    line-height: 1.6;
+   }
+   /*ingredients end */
+
+   /* Recipe start */
+   .procedure{
+    border: 2px solid #4f200d;
+    max-width: 80%;
+    margin: 20px auto;
+    background-color: #f6f1e9;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+   }
+   .procedure h1{
+    text-align: center;
+    margin-bottom: 20px;
+   }
+   .procedure ol{
+    list-style-position: inside;
+   }
+   .procedure li{
+    margin: 10px 0;
+    padding-left: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    line-height: 1.6;
+   }
+
+   /* Recipe end */
+
+   /* button */
+   
+    button {
+        display: block;
+        margin: 20px auto; 
+        padding: 10px 20px;
+        background-color:#4f200d;
+        color: white; 
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+    
+        button:hover {
+            background-color: #FFD93D;
+            color: #4f200d;
+          }
+        /* button end */
+    
+   
