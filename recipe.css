@@ -1,0 +1,80 @@
+:root {
+    --main-color: #dead5f;
+    --primary-color: #312e2e;
+    --background-color: #0C1844;
+}
+
+*{
+    padding :0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Nav start */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(63, 62, 62);
+}
+.logo{
+    color: #fff;
+    font-size: 24px;
+}
+.logo a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.vigate{
+    display: flex;
+    list-style: none;
+}
+
+.vigate li{
+    margin: 0 15px;
+}
+
+.vigate a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.vigate a:hover{
+    border-bottom: 2px solid #dead5f;
+
+}
+/* Nav end */
+
+/* img */
+.image-container {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    height: 60vh;
+  }
+
+/* img end */
+
+/* About */
+.about {
+    background-color: #f6f1e9; /* Light background color for the box */
+    border: 2px solid #4f200d; /* Darker border to define the box */
+    padding: 20px; /* Space inside the box */
+    border-radius: 10px; /* Rounded corners */
+    max-width: 800px; /* Set a maximum width */
+    margin: 20px auto; /* Center the box horizontally with margin */
+  }
+  
+  .about h1 {
+    text-align: center; /* Center the heading text */
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    text-align: justify; /* Justify the text */
+    line-height: 1.6; /* Increase the line height for readability */
+  }
+
+  /*About end */
+  
+  
+  
