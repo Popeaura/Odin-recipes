@@ -10,23 +10,28 @@
     box-sizing: border-box;
 }
 body{
-    background-color: ;
+    background-color: #4f200d;
 }
+
+.logo-img {
+    filter: brightness(0.4); 
+  }
+  
 /* Nav start */
 nav{
     height:100%;
     display: flex;
     padding: 1rem;
     justify-content: space-between;
-    background-color: rgb(63, 62, 62);
+    background-color: #f6f1e9;
 }
 .logo{
-    color: #fff;
+    color: #0C1844;
     font-size: 24px;
 }
 .logo a{
     text-decoration: none;
-    color: #fff;
+    color:#0C1844;
 }
 
 .vigate{
@@ -39,7 +44,7 @@ nav{
 }
 
 .vigate a{
-    color: #fff;
+    color: #0C1844;
     text-decoration: none;
     font-size: 18px;
 }
